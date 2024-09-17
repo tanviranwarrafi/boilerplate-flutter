@@ -1,0 +1,12 @@
+Alias: key
+
+-First name & Last name: Kriss Abbas
+-Organization unit: 10
+-Organization name: Skantrix
+-City: Oakville
+-State: ON
+-Country Code: CA
+-Store Password: Skantri@2024
+
+SHA1: DB:B1:75:8E:4B:00:52:FA:D4:0A:70:B9:EB:44:BF:AB:76:AA:5E:95
+SHA256: 3E:E7:A3:46:0A:E6:C1:57:1C:A0:A5:8D:65:ED:33:E5:F7:96:15:0A:DB:12:18:9E:5F:EC:C7:B0:90:C2:03:10
