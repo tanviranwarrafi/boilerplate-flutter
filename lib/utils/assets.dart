@@ -1,50 +1,21 @@
-const _APP_ICONS = 'assets/app_icons';
-const _BACKGROUNDS = 'assets/backgrounds';
 const _PNG_IMAGES = 'assets/png_images';
 const _SVG_ICONS = 'assets/svg_icons';
 const _SVG_IMAGES = 'assets/svg_images';
 
 class Assets {
   Assets._();
-  static _AppIcons app_icon = _AppIcons();
-  static _Backgrounds background = _Backgrounds();
   static _PngImages png_image = _PngImages();
   static _SvgIcons svg = _SvgIcons();
   static _SvgImages svg_image = _SvgImages();
 }
 
-class _AppIcons {
-  _AppIcons();
-  String skantrix = '$_APP_ICONS/skantrix.svg';
-  String skantrix_name = '$_APP_ICONS/skantrix_name.png';
-}
-
-class _Backgrounds {
-  _Backgrounds();
-  String background_1 = '$_BACKGROUNDS/background_1.png';
-  String background_2 = '$_BACKGROUNDS/background_2.png';
-  String background_3 = '$_BACKGROUNDS/background_3.png';
-  String background_4 = '$_BACKGROUNDS/background_4.png';
-  String background_5 = '$_BACKGROUNDS/background_5.png';
-}
-
 class _PngImages {
   _PngImages();
-  String calculator = '$_PNG_IMAGES/calculator.png';
   String door_open = '$_PNG_IMAGES/door_open.png';
-  String folder = '$_PNG_IMAGES/folder.png';
-  String lung = '$_PNG_IMAGES/lung.png';
-  String news = '$_PNG_IMAGES/news.png';
   String no_camera = '$_PNG_IMAGES/no_camera.png';
   String not_found = '$_PNG_IMAGES/not_found.png';
   String security = '$_PNG_IMAGES/security.png';
-  String stomach = '$_PNG_IMAGES/stomach.png';
   String tab_support = '$_PNG_IMAGES/tab_support.png';
-  String tool_box = '$_PNG_IMAGES/tool_box.png';
-  String trash_bin = '$_PNG_IMAGES/trash_bin.png';
-  String trash_folder = '$_PNG_IMAGES/trash_folder.png';
-  String trouble_1 = '$_PNG_IMAGES/trouble_1.png';
-  String trouble_2 = '$_PNG_IMAGES/trouble_2.png';
 }
 
 class _SvgIcons {
@@ -92,12 +63,9 @@ class _SvgIcons {
 
 class _SvgImages {
   _SvgImages();
-  String calculator = '$_SVG_IMAGES/calculator.svg';
-  String gmail = '$_SVG_IMAGES/gmail.svg';
   String google = '$_SVG_IMAGES/google.svg';
   String image = '$_SVG_IMAGES/image.svg';
   String info = '$_SVG_IMAGES/info.svg';
-  String layout = '$_SVG_IMAGES/layout.svg';
   String microsoft = '$_SVG_IMAGES/microsoft.svg';
   String scanner = '$_SVG_IMAGES/scanner.svg';
   String tab_support = '$_SVG_IMAGES/tab_support.svg';

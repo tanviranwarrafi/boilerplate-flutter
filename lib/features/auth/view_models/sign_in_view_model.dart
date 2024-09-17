@@ -17,7 +17,7 @@ class SignInViewModel with ChangeNotifier {
     loader = true;
     notifyListeners();
     var response = await sl<AuthRepository>().signIn(body);
-    if (response != null) unawaited(sl<Routes>().home().pushAndRemoveUntil());
+    if (response != null) unawaited(sl<Routes>().home().pushAndRemove());
     loader = false;
     notifyListeners();
   }

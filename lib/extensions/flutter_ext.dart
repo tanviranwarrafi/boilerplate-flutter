@@ -15,12 +15,6 @@ extension FlutterExtensions on void {
 
 extension PushRoute on Widget {
   Future<dynamic> push() => Navigator.push(_context, MaterialPageRoute(builder: (context) => this));
-
   Future<void> pushReplacement() => Navigator.pushReplacement(_context, MaterialPageRoute(builder: (context) => this));
-
-  Future<dynamic> pushAndRemoveUntil() => Navigator.pushAndRemoveUntil(
-        _context,
-        MaterialPageRoute(builder: (context) => this),
-        (route) => false,
-      );
+  Future<dynamic> pushAndRemove() => Navigator.pushAndRemoveUntil(_context, MaterialPageRoute(builder: (context) => this), (v) => false);
 }

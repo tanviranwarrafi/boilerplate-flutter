@@ -16,6 +16,6 @@ class GlobalViewModel with ChangeNotifier {
   void onLogout() {
     sl<AuthService>().clearUserData();
     sl<AuthService>().signOutUpdate();
-    sl<Routes>().sign_in().pushAndRemoveUntil();
+    sl<Routes>().sign_in().pushAndRemove();
   }
 }

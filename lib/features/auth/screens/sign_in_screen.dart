@@ -1,7 +1,6 @@
 import 'package:app/components/buttons/elevate_button.dart';
 import 'package:app/components/loaders/screen_loader.dart';
 import 'package:app/components/menus/prefix_menu.dart';
-import 'package:app/components/menus/skantrix_menu.dart';
 import 'package:app/components/menus/suffux_menu.dart';
 import 'package:app/constants/data_constants.dart';
 import 'package:app/di.dart';
@@ -76,7 +75,7 @@ class _SignInScreenState extends State<SignInScreen> {
       padding: EdgeInsets.symmetric(horizontal: Dimensions.screen_padding),
       children: [
         SizedBox(height: SizeConfig.statusBar + 24),
-        SkantrixMenu(),
+        const SizedBox(height: 40),
         const SizedBox(height: 68),
         Text(
           'Welcome Back 👋🏻',
